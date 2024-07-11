@@ -2,7 +2,6 @@
   "databaseURL": "https://AbuTuraab-s-workspace-5ltcb8.eu-west-1.xata.sh/db/ai-invoice-app",
   "codegen": {
     "output": "src/xata.js",
-    "moduleType": "esm",
-    "declarations": true
+    "moduleType": "esm"
   }
 }
