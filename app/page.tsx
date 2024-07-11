@@ -2,6 +2,8 @@ import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 import Link from "next/link";
 
 export default async function Home() {
+
+  console.log(process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY)
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
